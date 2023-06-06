@@ -1,0 +1,79 @@
+body{
+    background: rgb(48, 48, 47);
+    margin: 0px;
+}
+.cont{
+     display: flex;
+     width: 500px;
+     margin: 0 20px;
+     padding-top: 100px;
+     padding-bottom: 100px;
+     padding-left: 200px;
+     padding-right: 200px;
+     width: 700px;
+}
+.div1{
+    background: green;
+    margin-bottom: 5px;
+    text-align: center;
+    border: 2px solid white;
+}
+.div2{
+    background: white;
+    text-align: center;
+    border: 2px solid white;
+}
+.div3{
+    margin-top: 5px;
+    background:red;
+    text-align: center;
+    border: 2px solid white;
+}
+.div1,.div2,.div3{
+    border: 0;
+    border-radius: 20px;
+    width: 1010px;
+    height: 350px;
+    margin: 0 3px;
+}
+.div1:hover{
+    background: url("44.jpg");
+    background-size: cover;
+    border: 2px solid white;
+    border-bottom: 3px solid  rgb(170, 0, 0);
+    border-top: 3px solid  rgb(170, 0, 0);
+}
+.div2:hover{
+    background: url("ki\ copy.jpg");
+    background-size: cover;
+    border: 2px solid white;
+    border-bottom: 3px solid  rgb(170, 0, 0);
+    border-top: 3px solid  rgb(170, 0, 0);
+}
+.div3:hover{
+    background: url("foto\ \(1\).jpg");
+    background-size: cover;
+    border: 2px solid white;
+    border-bottom: 3px solid  rgb(170, 0, 0);
+    border-top: 3px solid  rgb(170, 0, 0);
+}
+h2{
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow:-3px 3px 6px black ;   
+}
+h2:hover{
+    color: rgb(8, 122, 2);
+    border-radius:   30px;
+    border-bottom: 5px solid  rgb(255, 255, 255);
+    margin-left:20px;
+    border-top: 3px solid  rgb(170, 0, 0);
+}
+.h2{
+    display: inline-block;
+    padding: 0;
+    text-align: center;}
